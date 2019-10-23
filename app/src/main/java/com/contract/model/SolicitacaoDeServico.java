@@ -2,32 +2,32 @@ package com.contract.model;
 
 import java.util.Date;
 
-public class SolicitacoDeServico {
+public class SolicitacaoDeServico {
     public int codigo;
     public Date dataInclusao;
     public int status;
     public Cliente cliente;
 
-    public SolicitacoDeServico() {
+    public SolicitacaoDeServico() {
     }
 
-    public SolicitacoDeServico incluir(){
+    public SolicitacaoDeServico incluir(){
         return null;
     }
 
-    public SolicitacoDeServico alterar(int codigo){
+    public SolicitacaoDeServico alterar(int codigo){
         return null;
     }
 
-    public SolicitacoDeServico consultar(int codigo){
+    public SolicitacaoDeServico consultar(int codigo){
         return null;
     }
 
-    public SolicitacoDeServico cancelar(int codigo){
+    public SolicitacaoDeServico cancelar(int codigo){
         return null;
     }
 
-    public SolicitacoDeServico(int codigo, Date dataInclusao, int status, Cliente cliente) {
+    public SolicitacaoDeServico(int codigo, Date dataInclusao, int status, Cliente cliente) {
         this.codigo = codigo;
         this.dataInclusao = dataInclusao;
         this.status = status;

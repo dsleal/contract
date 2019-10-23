@@ -24,7 +24,7 @@ public class OrdemDeServico {
         return codigo;
     }
 
-    public OrdemDeServico gerar(SolicitacoDeServico solicitacaoDeServico){
+    public OrdemDeServico gerar(SolicitacaoDeServico solicitacaoDeServico){
         return null;
     }
 
