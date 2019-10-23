@@ -1,6 +1,7 @@
 package com.contract.activities;
 
 
+
 import android.os.Bundle;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
