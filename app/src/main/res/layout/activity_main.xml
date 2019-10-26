@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="334dp"
+        tools:layout_editor_absoluteY="320dp">
+
+        <TextView
+            android:id="@+id/txtCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cliente" />
+
+        <ImageButton
+            android:id="@+id/imgCliente"
+            android:src="@drawable/cliente"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:scaleType="centerInside"
+            tools:srcCompat="@tools:sample/avatars"      />
+
+        <TextView
+            android:id="@+id/txtPrestador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prestador" />
+
+        <ImageButton
+            android:id="@+id/imgPrestador"
+            android:src="@drawable/prestador"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:background="#ffffff"
+            tools:srcCompat="@tools:sample/avatars" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
