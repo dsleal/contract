@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.Main">
+    tools:context=".activities.SubMenuCliente">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,14 +14,14 @@
         tools:layout_editor_absoluteY="320dp">
 
         <TextView
-            android:id="@+id/txtClient"
+            android:id="@+id/txtServices"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Cliente" />
+            android:text="Meus Serviços" />
 
         <ImageButton
-            android:id="@+id/imgClient"
-            android:src="@drawable/client"
+            android:id="@+id/imgServices"
+            android:src="@drawable/services"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
@@ -30,14 +30,14 @@
             tools:srcCompat="@tools:sample/avatars"      />
 
         <TextView
-            android:id="@+id/txtProvider"
+            android:id="@+id/txtNewService"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Prestador" />
+            android:text="Novo Serviço" />
 
         <ImageButton
-            android:id="@+id/imgProvider"
-            android:src="@drawable/provider"
+            android:id="@+id/imgNewService"
+            android:src="@drawable/new_service"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
@@ -46,4 +46,3 @@
             tools:srcCompat="@tools:sample/avatars" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
-

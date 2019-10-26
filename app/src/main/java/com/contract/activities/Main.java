@@ -12,29 +12,28 @@ import com.contract.R;
 
 public class Main extends AppCompatActivity {
 
-    ImageButton imgCliente;
-    ImageButton imgPrestador;
+    ImageButton imgClient;
+    ImageButton imgProvider;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        imgCliente = (ImageButton) findViewById(R.id.imgCliente);
+        imgClient = (ImageButton) findViewById(R.id.imgClient);
 
-        imgCliente.setOnClickListener(new View.OnClickListener() {
+        imgClient.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(Main.this, "Cliente", Toast.LENGTH_LONG).show();
-                //startActivity(new Intent(this, UsersLista));
-                Intent intent = new Intent(getApplicationContext(), UsersLista.class);
+                Intent intent = new Intent(getApplicationContext(), SubMenuCliente.class);
                 startActivity(intent);
             }
         });
 
-        imgPrestador= (ImageButton) findViewById(R.id.imgPrestador);
+        imgProvider= (ImageButton) findViewById(R.id.imgProvider);
 
-        imgPrestador.setOnClickListener(new View.OnClickListener() {
+        imgProvider.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(Main.this, "Prestador", Toast.LENGTH_LONG).show();

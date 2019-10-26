@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">contract</string>
+
+    <string-array name="option_services">
+        <item>Encanador</item>
+        <item>Pedreiro</item>
+        <item>Pintor</item>
+    </string-array>
+
 </resources>
