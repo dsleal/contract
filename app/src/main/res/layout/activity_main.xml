@@ -55,6 +55,7 @@
             android:id="@+id/btnAcessoRestrito"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="acessoRestrito"
             android:text="Acesso Restrito" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
