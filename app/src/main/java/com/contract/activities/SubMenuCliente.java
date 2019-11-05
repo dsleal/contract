@@ -26,6 +26,7 @@ public class SubMenuCliente extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), UsersLista.class);
+                //Intent intent = new Intent(getApplicationContext(), SolicitacaoLista.class);
                 startActivity(intent);
             }
         });

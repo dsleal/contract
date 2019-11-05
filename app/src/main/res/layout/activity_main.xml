@@ -44,6 +44,18 @@
             android:scaleType="centerInside"
             android:background="#ffffff"
             tools:srcCompat="@tools:sample/avatars" />
+
+        <Button
+            android:id="@+id/btnCadastro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastre-se" />
+
+        <Button
+            android:id="@+id/btnAcessoRestrito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acesso Restrito" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
 

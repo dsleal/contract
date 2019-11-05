@@ -23,6 +23,10 @@ public class Users {
         this.website = website;
         this.company = company;
     }
+    public Users(String name,  String email) {
+        this.name = name;
+        this.email = email;
+    }
 
 
     public int getId() {
